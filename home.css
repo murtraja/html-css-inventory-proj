@@ -1,0 +1,88 @@
+div {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  display: flex;
+  border-bottom: 1px solid gray;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 60px;
+  height: 10vh;
+  max-height: 100px;
+  background-color: white;
+  box-sizing: border-box;
+}
+.navbar-item {
+  padding: 10px 5px;
+  transition: transform 0.2s;
+}
+.navbar-item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* p {
+    border: 1px solid red;
+    padding: 100px 60px
+} */
+.content {
+  margin-top: min(max(10vh, 60px), 100px);
+  border-top: 1px solid blue;
+  padding: 0px 16px;
+}
+.search-container {
+  background-color: aqua;
+  background-image: url("search2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75%;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+.products-container {
+  display: flex;
+  background-color: lightgray;
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 16px
+}
+.card {
+  height: 200px;
+  width: 150px;
+  background-color: brown;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.price-tag {
+  height: 10%; 
+  background-color: white;
+  text-align: center;
+}
+.footer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  height: 30px;
+}
