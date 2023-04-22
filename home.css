@@ -8,6 +8,7 @@ div {
   justify-content: flex-end;
   align-items: center;
   padding: 8px;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -26,35 +27,37 @@ div {
   transform: scale(1.1);
   cursor: pointer;
 }
-/* p {
-    border: 1px solid red;
-    padding: 100px 60px
-} */
 .content {
   margin-top: min(max(10vh, 60px), 100px);
   border-top: 1px solid blue;
   padding: 0px 16px;
 }
+
 .search-container {
   background-color: aqua;
   background-image: url("search2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
   width: 75%;
   height: 100px;
   margin: auto;
+
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px 30px;
+
   display: flex;
   flex-direction: column;
   border: 1px solid red;
 }
+
 .search-box {
   display: flex;
   justify-content: center;
 }
+
 .products-container {
   display: flex;
   background-color: lightgray;
@@ -64,6 +67,7 @@ div {
   flex-wrap: wrap;
   padding: 16px
 }
+
 .card {
   height: 200px;
   width: 150px;
@@ -73,11 +77,17 @@ div {
   flex-direction: column;
   /* justify-content: space-between; */
 }
+
+.product-image {
+  max-height: 90%;
+}
+
 .price-tag {
-  height: 10%; 
+  height: 10%;
   background-color: white;
   text-align: center;
 }
+
 .footer {
   margin-top: 16px;
   display: flex;
